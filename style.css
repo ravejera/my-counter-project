@@ -8,14 +8,13 @@ body{
     position: relative;
     top: 150px;
 }
-.counter{
-    font-size: 30px;
+.counter h1{
+    font-size: 50px;
     /* padding: 8px; */
-    margin: 0;
+    /* margin: 0; */
 }
-.number{
-    font-size: 40px;
-    margin: 0;
+#value{
+    font-size: 60px;
 }
 .buttons{
     display: inline-flex;
@@ -27,4 +26,16 @@ body{
 }
 .button{
     padding: 8px;
+}
+.decrease:hover{
+    background-color: black;
+    color: white;
+}
+.reset:hover{
+    background-color: black;
+    color: white;
+}
+.increase:hover{
+    background-color: black;
+    color: white;
 }
