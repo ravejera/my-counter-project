@@ -1,0 +1,30 @@
+body{
+    background-size: cover;
+    max-width: 100%;
+    background-color: beige;
+}
+.parent{
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+.counter{
+    font-size: 30px;
+    /* padding: 8px; */
+    margin: 0;
+}
+.number{
+    font-size: 40px;
+    margin: 0;
+}
+.buttons{
+    display: inline-flex;
+    margin: 0%;
+}
+.buttons button{
+    font-size: 20px;
+    border-radius: 8px;
+}
+.button{
+    padding: 8px;
+}
